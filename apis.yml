@@ -1,8 +1,28 @@
 aid: wave
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wave.png
 name: Wave
-description: Wave is a company surfaced as a portfolio company of a16z, founders-fund, seedcamp, techstars,
-  y-combinator and added to the API Evangelist network as a stub for enrichment. This profile is a lead
-  awaiting the enrichment pipeline.
+description: >-
+  Wave is a virtual entertainment company that produces interactive, avatar-driven
+  virtual concerts and immersive live music experiences known as "Waves." The platform
+  streams stylized, real-time performances from major recording artists — including The
+  Weeknd, Justin Bieber, John Legend, J Balvin, and Alison Wonderland — as animated
+  avatars across VR headsets, desktop, mobile, and social video platforms, letting fans
+  attend and interact with shows from anywhere. Wave is a consumer-facing entertainment
+  and media product (accessed at wavexr.com) rather than a developer platform; as of this
+  profile it publishes no public API, developer portal, SDKs, or technical documentation.
+  It was surfaced as a venture-portfolio company and added to the API Evangelist network,
+  where this profile captures its public identity and domain-security posture.
 url: https://raw.githubusercontent.com/api-evangelist/wave/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,9 +36,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Entertainment
+- Virtual Reality
+- Augmented Reality
+- Metaverse
+- Music
+- Live Events
+- Avatars
+- XR
+- Media
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,4 +56,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://wavexr.com
+  url: https://wavexr.com
+- type: About
+  url: https://wavexr.com/about/
+- type: Blog
+  url: https://wavexr.com/newsroom/
+- type: SignUp
+  url: https://wavexr.com/joinbeta/
+- type: Support
+  url: https://wavexr.com/faq/
+- type: Contact
+  url: https://wavexr.com/contact/
+- type: TermsOfService
+  url: https://wavexr.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://wavexr.com/privacy-policy/
+- type: DomainSecurity
+  url: security/wave-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

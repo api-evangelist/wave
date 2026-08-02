@@ -1,0 +1,21 @@
+{
+  "repo": "wave",
+  "feeds": [
+    {
+      "source": "https://wavexr.com/feed/",
+      "feed_url": "https://wavexr.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://wavexr.com/about/",
+      "feed_url": "https://wavexr.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 8,
+  "fetched": "2026-08-01T15:49:00Z"
+}
